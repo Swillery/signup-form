@@ -1,0 +1,5 @@
+/*linking custom font*/
+@font-face {
+    font-family: "BabasNeue"; 
+    src: url(../signup-form/BebasNeue-Regular.otf);
+}
