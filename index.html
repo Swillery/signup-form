@@ -16,12 +16,57 @@
                 </div>
             </div>
             <div id="credit">
-                Photo by <a href="https://unsplash.com/@kevinmueller">Kevin Mueller</a> on <a href="https://unsplash.com/photos/palm-leaves-sway-against-a-clear-blue-sky-nAR-LfzGkdc">Unsplash</a>.
+                Photo by <a href="https://unsplash.com/@kevinmueller">Kevin Mueller</a> on <a href="https://unsplash.com/photos/palm-leaves-sway-against-a-clear-blue-sky-nAR-LfzGkdc">Unsplash</a>
             </div>
         </div>
 
         <div class="right">
-            <h1>Sample Text</h1>
+            <div class="header">
+                <h1>This is a fake website I made! Feel free to sign up to receive nothing at all! It is honestly a great deal!
+                <br><br>Your information is <em>very</em> safe with us.</h1>
+            </div>
+            <div class="formbox">
+                <form action="/testtesttest" method="post">
+                    <fieldset>
+                        <legend><h2>Give me your info!</h2></legend>
+                        <div id="nameForm">
+                            <div>
+                            <label for="firstName">FIRST NAME</label>
+                            <input type="text" id="firstName" name="first_name" required/>
+                            </div>
+
+                            <div>
+                            <label for="lastName">LAST NAME</label>
+                            <input type="text" id="lastName" name="last_name" required/>
+                            </div>
+                        </div>
+
+                        <div id="contactForm">
+                            <div>
+                            <label for="mail">EMAIL</label>
+                            <input type="email" id="mail" name="user_email" required/>
+                            </div>
+
+                            <div>
+                            <label for="phone">PHONE NUMBER (123-456-7890)</label>
+                            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required/>
+                            </div>
+                        </div>
+
+                        <div id="passForm">
+                            <div>
+                            <label for="pass">PASSWORD</label>
+                            <input class="pass" type="password" id="pass" name="user_pass" required>
+                            </div>
+
+                            <div>
+                            <label for="passConfirm">CONFIRM PASSWORD</label>
+                            <input class="pass" type="password" id="passConfirm" name="confirm_pass" required>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
         </div>
     
 </body>
