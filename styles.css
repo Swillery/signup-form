@@ -1,5 +1,68 @@
+@import 'node_modules/normalize.css/normalize.css';
+
 /*linking custom font*/
 @font-face {
     font-family: "BabasNeue"; 
     src: url(../signup-form/Fonts-Images/BebasNeue-Regular.otf);
+}
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.rows {
+    display: flex;
+}
+
+.left {
+    width: 40%;
+    position: absolute;
+    left: 0px;
+    height: 100%;
+    background: url(Fonts-Images/unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logobox {
+    font-family: "BabasNeue";
+    font-size: 400%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.253);
+    height: 15%;
+    width: 80%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+#logo img {
+    height: auto;
+    width: 4rem;
+}
+
+#credit {
+    position: absolute;
+    bottom: 10px;
+    color: white;
+}
+
+#credit a {
+    color: white;
+}
+
+.right {
+    width: 60%;
+    position: absolute;
+    right: 0px;
+    height: 100%;
 }
